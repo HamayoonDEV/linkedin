@@ -1,0 +1,31 @@
+.header{
+position:sticky;
+top: 0;
+display: flex;
+justify-content: space-evenly;
+border-bottom: 0.1px solid lightgray;
+z-index: 999;
+}
+.left-section{
+    display: flex;
+}
+.left-section img{
+    object-fit: contain;
+    height: 40px;   
+}
+.search-bar{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: #eef3f8;
+}
+.search-bar input{
+    border: none;
+    outline: none;
+    background: none;
+}
+.right-section{
+    display: flex;
+}
