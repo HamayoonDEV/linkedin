@@ -1,5 +1,6 @@
 import Header from "./Header";
 import Sidebar from "./Sidebar";
+import Feed from "./Feed";
 import './App.css'
 function App() {
   return (
@@ -9,10 +10,13 @@ function App() {
       {/**App Body */}
       <div className="app-body">
         <Sidebar/>
-      </div>
+      
       {/** Side bar */}
       {/**Feed */}
+      <Feed/>
+
       {/**Widgets */ }
+      </div>
      
     </div>
   );

@@ -1,6 +1,7 @@
 .header{
 position:sticky;
 top: 0;
+background-color: white;
 display: flex;
 justify-content: space-evenly;
 border-bottom: 0.1px solid lightgray;
@@ -8,6 +9,7 @@ z-index: 999;
 }
 .left-section{
     display: flex;
+    margin-top: 5px;
 }
 .left-section img{
     object-fit: contain;
@@ -20,12 +22,18 @@ z-index: 999;
     margin-left: 10px;
     border-radius: 5px;
     background-color: #eef3f8;
+    margin-bottom: 5px;
+
 }
 .search-bar input{
     border: none;
     outline: none;
     background: none;
+    
+    
 }
 .right-section{
     display: flex;
+    margin-left: 50px;
+    margin-top: 5px;
 }
